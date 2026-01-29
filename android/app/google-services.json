@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "836308904683",
+    "project_id": "tu-dormitory",
+    "storage_bucket": "tu-dormitory.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:836308904683:android:e2b1095f8ac32886c22cae",
+        "android_client_info": {
+          "package_name": "tu.dormitory"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVSWy3-x-d53JJPhUPw_6cWC0cEuXWMFE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

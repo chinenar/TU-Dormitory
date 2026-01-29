@@ -1,0 +1,56 @@
+name: tu_dormitory
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'  # ปรับให้รองรับ Flutter SDK เวอร์ชันล่าสุด
+
+# dependencies:
+#   flutter:
+#     sdk: flutter
+#      # Firebase & Firestore
+#   firebase_core: ^3.11.0
+#   firebase_auth: ^5.4.2 # ✅ เพิ่ม Firebase Authentication เผื่อใช้งานในอนาคต
+
+  # State Management (ถ้าใช้ Provider)
+  #provider: ^6.1.2
+  
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.2 # เพิ่มบรรทัดนี้เพื่อใช้งาน provider
+  url_launcher: ^6.1.14
+  share_plus: ^10.1.4
+  webview_flutter: ^4.0.0
+  firebase_core: ^3.0.0 #^2.24.2
+  cloud_firestore: ^5.6.12 #^4.15.0
+  firebase_auth: ^5.0.0 #^4.0.0
+  flutter_markdown: ^0.7.7
+  font_awesome_flutter: ^10.0.0
+  material_design_icons_flutter: ^7.0.7296
+  shared_preferences: ^2.5.3
+  logger: ^2.0.2
+  smooth_page_indicator: ^1.1.0
+  cupertino_icons: ^1.0.8
+  flutter_launcher_icons: ^0.13.1
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # ✅ เพิ่ม assets รองรับทั้ง .jpg และ .png
+  assets:
+    - assets/
+    #- assets/logo.png
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo.jpg"
